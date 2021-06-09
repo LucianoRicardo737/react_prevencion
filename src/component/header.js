@@ -1,10 +1,11 @@
 import  Marquee  from  'react-double-marquee' ;
+import PrevencionSalud from '../imagenes/prevencionsalud.png'
 function Header(){
     return(
     <div>
         <header>
         <div className='brand'>
-          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-83TfnCYGyfutFEFt3eJm77kBvoqHv6WDEQ&usqp=CAU' alt='Prevencion salud' />
+          <img src={PrevencionSalud} alt='Prevencion salud' />
         </div>
         </header>
           <div className='body'

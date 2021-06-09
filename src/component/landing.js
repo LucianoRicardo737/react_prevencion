@@ -1,11 +1,12 @@
 import  Marquee  from  'react-double-marquee' ;
+import Personaje from '../imagenes/personaje5.png';
 function Landing(){
     return(
         <div>
         <section className='container'>
       <section className='personas'>
             <h3>La mejor cobertura en un solo lugar.</h3>
-         <img className='girl' src='https://www.sumaprevencion.com.ar/web/img/welcome.png' alt='persona'/> 
+         <img className='girl' src={Personaje} alt='persona'/> 
       </section>
   </section>
   <section className='atencion'>
