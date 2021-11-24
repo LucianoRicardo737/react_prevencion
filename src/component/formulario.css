@@ -1,0 +1,142 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:#ec3b74;
+    padding:10px;
+    flex-wrap: wrap
+  }
+  .container section{
+    padding:10px;
+  }
+
+  form{
+    width:400px;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
+    background-color:rgb(255,255,255);
+    /* box-shadow: 0px 0px 10px 1px gray; */
+    display: flex;
+    flex-direction: column;
+ 
+}
+form label{
+    width:120px;
+    font-weight:bold;
+    display:inline-block;
+    color:#ec3b74;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="browsers"]{
+    width:250px;
+    padding:3px 10px;
+    border:1px solid #ec3b74;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+}
+form input[type="number"],
+select{
+ width:60px;
+ padding:3px 10px;
+ border:1px solid #ec3b74;
+ border-radius:3px;
+ background-color:#f6f6f6;
+ margin:8px 10px 8px 0px;
+ display:inline-block;
+}
+form textarea{
+      border:1px solid #ec3b74;
+  border-radius:3px;
+    background-color:#f6f6f6;
+  margin:8px 0;
+}
+
+form input[type="submit"]{
+    width:100%;
+    padding:8px 16px;
+    margin-top:32px;
+    border:1px solid #ec3b74;
+    border-radius:5px;
+    display:block;
+    color:#fff;
+    background: #ec3b74;
+} 
+
+form input[type="submit"]:hover{
+    cursor:pointer;
+  background: #1E88E5;
+    color: #FFFFFF;
+  
+}
+
+textarea{
+    width:100%;
+    height:100px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;			
+    margin:8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize:none;
+    display:block;
+}
+
+
+@media (max-width: 600px){
+    form{
+       width:300px;
+       padding:16px;
+       border-radius:10px;
+       margin:auto;
+       background-color:rgb(255,255,255);
+   }
+       form input[type="text"],
+      form input[type="email"],
+      form input[type="tel"],
+      form input[type="browsers"]{
+       width:180px;
+       padding:3px 10px;
+       border:1px solid #ec3b74;
+       border-radius:3px;
+       background-color:#f6f6f6;
+       margin:8px 0;
+       display:inline-block;
+   }
+     footer div ul{
+      width: 10px;
+   
+     }
+    
+   }
+
+
+@media (max-width: 480px){
+    form{
+        width:250px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color:rgb(255,255,255);
+    }
+      .personas img{
+        width: 80px;
+      }
+      form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form input[type="browsers"]{
+        width:180px;
+        padding:3px 10px;
+        border:1px solid #ec3b74;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+}

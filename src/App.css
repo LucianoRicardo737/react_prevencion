@@ -20,17 +20,8 @@
    justify-content:center;
    
  }
- .container{
-   display:flex;
-   justify-content:space-around;
-   align-items:center;
-   background:#ec3b74;
-   padding:10px;
-   flex-wrap: wrap
- }
- .container section{
-   padding:10px;
- }
+
+
  .personas img{
    
    width:150px;
@@ -42,137 +33,15 @@
    color:#ec3b74;
    margin:10px 0;
  }
- form{
-     width:400px;
-     padding:16px;
-     border-radius:10px;
-     margin:auto;
-     background-color:rgb(255,255,255);
-   box-shadow: 0px 0px 30px 3px gray;
-  
- }
- form label{
-     width:90px;
-     font-weight:bold;
-     display:inline-block;
-   color:#ec3b74;
- }
-
- form input[type="text"],
- form input[type="email"],
- form input[type="tel"],
- form input[type="browsers"]{
-     width:250px;
-     padding:3px 10px;
-     border:1px solid #ec3b74;
-     border-radius:3px;
-     background-color:#f6f6f6;
-     margin:8px 0;
-     display:inline-block;
- }
- form input[type="number"]{
-  width:60px;
-  padding:3px 10px;
-  border:1px solid #ec3b74;
-  border-radius:3px;
-  background-color:#f6f6f6;
-  margin:8px 10px 8px 0px;
-  display:inline-block;
-}
- form textarea{
-       border:1px solid #ec3b74;
-   border-radius:3px;
-     background-color:#f6f6f6;
-   margin:8px 0;
- }
  
- form input[type="submit"]{
-     width:100%;
-     padding:8px 16px;
-     margin-top:32px;
-     border:1px solid #ec3b74;
-     border-radius:5px;
-     display:block;
-     color:#fff;
-     background: #ec3b74;
- } 
- 
- form input[type="submit"]:hover{
-     cursor:pointer;
-   background: #1E88E5;
-     color: #FFFFFF;
-   
- }
-
- textarea{
-     width:100%;
-     height:100px;
-     border:1px solid #f6f6f6;
-     border-radius:3px;
-     background-color:#f6f6f6;			
-     margin:8px 0;
-     /*resize: vertical | horizontal | none | both*/
-     resize:none;
-     display:block;
- }
  @media (max-width: 690px){
    .personas img{
-   
-   width:100px;
-     
+     width:100px;
+    }
  }
- }
- @media (max-width: 600px){
-  form{
-     width:300px;
-     padding:16px;
-     border-radius:10px;
-     margin:auto;
-     background-color:rgb(255,255,255);
-   box-shadow: 0px 0px 30px 3px gray;
- }
-     form input[type="text"],
- form input[type="email"],
- form input[type="tel"],
- form input[type="browsers"]{
-     width:180px;
-     padding:3px 10px;
-     border:1px solid #ec3b74;
-     border-radius:3px;
-     background-color:#f6f6f6;
-     margin:8px 0;
-     display:inline-block;
- }
-   footer div ul{
-    width: 10px;
- 
-   }
-  
- }
+
  @media (max-width: 480px){
-  form{
-     width:250px;
-     padding:16px;
-     border-radius:10px;
-     margin:auto;
-     background-color:rgb(255,255,255);
-   box-shadow: 0px 0px 30px 3px gray;
- }
-   .personas img{
-     width: 80px;
-   }
-   form input[type="text"],
- form input[type="email"],
- form input[type="tel"],
- form input[type="browsers"]{
-     width:180px;
-     padding:3px 10px;
-     border:1px solid #ec3b74;
-     border-radius:3px;
-     background-color:#f6f6f6;
-     margin:8px 0;
-     display:inline-block;
- }
+  
    .datos{
    font-size:20px;
      font-weight:bold;

@@ -1,27 +1,29 @@
-import  Marquee  from  'react-double-marquee' ;
-import PrevencionSalud from '../imagenes/prevencionsalud.png'
+import  Marquee  from  'react-double-marquee' 
+// import PrevencionSalud from '../imagenes/prevencionsalud.png'
+
+import React from 'react'
 function Header(){
-    return(
+  return(
     <div>
-        <header>
+      <header>
         <div className='brand'>
-          <img src={PrevencionSalud} alt='Prevencion salud' />
+          <img src='./img/prevencionsalud.png' alt='Prevencion salud' />
         </div>
-        </header>
-          <div className='body'
+      </header>
+      <div className='body'
         style={{
           width: '100%',
           whiteSpace: 'nowrap',
         }}
       >
         <Marquee>
-        <img src='//v.fastcdn.co/u/fdbc6f18/54030821-0-logos.png' alt='clinicas'/>
+          <img src='//v.fastcdn.co/u/fdbc6f18/54030821-0-logos.png' alt='clinicas'/>
         </Marquee>
       
           
-          </div>
+      </div>
     </div>
-    )
-};
+  )
+}
 
-export default Header;
+export default Header
