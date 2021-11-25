@@ -1,32 +1,39 @@
 *{
   margin:0px;
- padding:0px;
+  padding:0px;
  }
  body {
-    
      margin: 0;
-     width: 100%;
+     width: 100vw;
      font-family: 'Roboto';
      font-weight: 400;
+ }
+
+ .container{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background:#ec3b74;
+  padding:10px;
+  flex-wrap: wrap;
+
+}
+.container section{
+  padding:10px;
+}
+
+
+header{
+  width:100%;
+  background:#ec3b74;
+  display:flex;
+  justify-content:center;
+}
+
+.personas img{
+  width:150px;
     
- }
- header{
- 
-   width:100%;
-   background:#ec3b74;
- }
- header{
-   display:flex;
-   justify-content:center;
-   
- }
-
-
- .personas img{
-   
-   width:150px;
-     
- }
+}
  .datos{
    font-size:30px;
      font-weight:bold;
@@ -99,7 +106,11 @@
 
 
 
-
+ @media (max-width: 600px){
+   h1,h3, p {
+     text-align: center;
+   }
+}
 
 
  @media (max-width: 690px){

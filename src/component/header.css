@@ -1,5 +1,11 @@
 .brand{
     display:flex;
     justify-content:center;
-    
+    height: 120px;
+  }
+
+  @media (max-width: 480px){
+    .brand{
+      height: 80px;
+    }
   }

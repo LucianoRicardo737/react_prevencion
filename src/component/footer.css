@@ -1,11 +1,11 @@
 .footer{
     height: 130x;
-     width: 100%;
-   background:#ec3b74;
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   flex-wrap:wrap;
+    width: 100vw;
+    background:#ec3b74;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
  }
  .imgfooter img{
     width:300px
