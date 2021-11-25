@@ -1,5 +1,6 @@
 import  Marquee  from  'react-double-marquee' 
 // import PrevencionSalud from '../imagenes/prevencionsalud.png'
+import './header.css'
 
 import React from 'react'
 function Header(){

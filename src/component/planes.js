@@ -1,5 +1,6 @@
 
 import React from 'react'
+import './planes.css'
 
 function Planes(){
   return(

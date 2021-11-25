@@ -15,7 +15,7 @@
    width:100%;
    background:#ec3b74;
  }
- header .brand{
+ header{
    display:flex;
    justify-content:center;
    
@@ -34,26 +34,7 @@
    margin:10px 0;
  }
  
- @media (max-width: 690px){
-   .personas img{
-     width:100px;
-    }
- }
 
- @media (max-width: 480px){
-  
-   .datos{
-   font-size:20px;
-     font-weight:bold;
-   color:#ec3b74;
-   margin:10px 0;
- }
- }
- @media (max-width: 390px){
-   .personas img{
-     width: 70px;
-   }
- }
  /*-----------------*/
  h1{
    margin: 20px;
@@ -69,24 +50,9 @@
      line-height: 4rem;
      font-size: 1.4768rem;
  }
- .planesA{
-   display:flex;
-   justify-content:space-around;
-   flex-wrap:wrap;
-   margin-bottom:20px;
-   
- }
+
  
- .pa1{
-  width: 300px;
-  padding:10px;
  
- }
- .pa1 li{
-   font-size: 20px;
-   color:#ec3b74;
-   line-height:35px;
- }
  div h2{
    font-size:40px;
  }
@@ -130,37 +96,29 @@
      font-size: 2.6625rem;
  }
  /*------Footer-------*/
- .footer{
-    height: 130x;
-     width: 100%;
-   background:#ec3b74;
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   flex-wrap:wrap;
- }
- .imgfooter img{
- width:300px
- }
- footer div ul{
-   display:flex;
- }
- 
 
- .whatsapp {
-   position:fixed;
-   width:60px;
-   height:60px;
-   bottom:40px;
-   right:40px;
-   background-color:#25d366;
-   color:#FFF;
-   border-radius:50px;
-   text-align:center;
-   font-size:30px;
-   z-index:100;
- }
+
+
+
+
+
+ @media (max-width: 690px){
+  .personas img{
+    width:100px;
+   }
+}
+
+@media (max-width: 480px){
  
- .whatsapp-icon {
-   margin-top:13px;
- }
+  .datos{
+  font-size:20px;
+    font-weight:bold;
+  color:#ec3b74;
+  margin:10px 0;
+}
+}
+@media (max-width: 390px){
+  .personas img{
+    width: 70px;
+  }
+}

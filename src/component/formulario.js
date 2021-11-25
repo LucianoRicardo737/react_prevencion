@@ -39,33 +39,32 @@ const Formulario=()=> {
         <form className="contact-form" onSubmit={sendEmail}>
           <h2 className='datos'>Cotizá tu plan</h2>
 
-          <div>
+          <div className='dviOrdenForm'>
             <label form='name'>Nombre:</label>
             <input type="text" name="from_name"required placeholder='Ingrese su Nombre'/>
           </div>
-          <div>
+          <div className='dviOrdenForm'>
             <label form='telefono'>Cód. Área + Teléfono:</label>
-            <input  name="user_number" type="tel" required placeholder='Ingrese su numero de telefono'/>
+            <input  name="user_number" type="tel" required placeholder='Ingrese su numero de teléfono'/>
           </div>
-          <div>
+          <div className='dviOrdenForm'>
             <label form="user_email">Email:</label>
             <input name="user_email" type='email' required placeholder='Ingrese su email'/>
           </div>
-          <div>
+          <div className='dviOrdenForm'>
             <label form="user_age">Edad:</label>
             <input  name="user_age" type='tel' required placeholder='Ingrese su edad'/>
           </div>
-          <div>
+          <div className='dviOrdenForm'>
             <label form="user_city">Localidad</label>
             <input name="user_city" type='text' required placeholder='Donde se encuentra'/>
           </div>
-          <div>
-
+          <div className='dviOrdenForm'>
             <label form="user_children">Hijos:</label>
             {/* <input name="user_children" type="text" required placeholder='Si - No'/> */}
             <select>
-              <option disabled>
-            Seleccionar
+              <option default >
+                 Seleccionar
               </option>
               <option>
             Si
@@ -74,18 +73,19 @@ const Formulario=()=> {
             No
               </option>
             </select>
-            <label form="children">Cuantos:</label>
-            <input name="children"  type='number' required/>
           </div>
 
- 
-          <div>
-            <label form="partner">Conyuge - Edad:</label>
-            <input name="partner" type='number' required/>
+          <div className='dviOrdenForm'>
+            <label form="children">Cantidad:</label>
+            <input name="children"  type='number' placeholder='Ingrese la cantidad de hijos' required/>
           </div>
-          <div>
+          <div className='dviOrdenForm'>
+            <label form="partner">Conyuge - Edad:</label>
+            <input name="partner" type='number'  placeholder='Ingrese la edad de su conyugue' required/>
+          </div>
+          <div className='dviOrdenForm'>
             <label form="situacion">Situación laboral:</label>
-            <input name="user_situation" type='browsers'list="browsers" required/>
+            <input name="user_situation"  placeholder='Defina su situación laboral' type='browsers'list="browsers" required/>
           </div>
 
           <datalist id="browsers">
@@ -93,9 +93,14 @@ const Formulario=()=> {
             <option value="Relación de dependencia"/>
             <option value="Monotributista"/>
           </datalist>
-          <label form='message'>Comentarios</label>
-          <textarea name="message" placeholder='Ingrese un comentario...' />
+
+          <div className='dviOrdenForm'>
+            <label form='message'>Comentarios:</label>
+            <textarea name="message" placeholder='Ingrese un comentario...' />
+          </div>
+
           <input type="submit" value="ENVIAR" />
+
         </form>
         
                     

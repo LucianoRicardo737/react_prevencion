@@ -1,8 +1,7 @@
-import Marquee from 'react-double-marquee' 
-// import Personaje from '../imagenes/personaje5.png'
-
 import React from 'react'
-function Landing(){
+// import Marquee from 'react-double-marquee'
+
+const Landing = () =>{
   return(
     <div>
       <section className='container'>

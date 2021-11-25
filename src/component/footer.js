@@ -1,6 +1,8 @@
 // import PrevencionSalud from '../imagenes/prevencionsalud.png'
 
 import React from 'react'
+import './footer.css'
+
 function Footer(){
   return(
     <footer className='footer'>
